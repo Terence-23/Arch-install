@@ -19,5 +19,3 @@ cd slstatus && sudo make clean install && cd ..
 cp .config/.bashrc ~
 cp .config/.bash_profile ~
 cp .config/.xinitrc ~
-
-reboot
