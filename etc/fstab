@@ -1,0 +1,10 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/sda8 LABEL=Arch
+UUID=9e35bee9-ad2f-4f13-99ea-ea54e679d6e5	/         	ext4      	rw,relatime	0 1
+
+# /dev/sda1 LABEL=SYSTEM_DRV
+UUID=CCC6-9D9E      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
+
